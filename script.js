@@ -5,7 +5,8 @@ function palindrome(str){
     m.trim();
     let arr = m.split("");
     // console.log(arr);
-     let k = arr.reverse();
+     let y = arr.reverse();
+	let k = arr.join("")
     // console.log(arr);
     if(k == arr ){
         return true
